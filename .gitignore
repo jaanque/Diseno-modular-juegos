@@ -1,0 +1,7 @@
+# Ignorar carpetas
+.settings/
+bin/
+
+# Ignorar archivos específicos
+.classpath
+.project
