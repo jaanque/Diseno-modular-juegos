@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class DiseñoModularJuegos {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         
         // Creo la variable per a triar una opcio del menu
         int opcion;
@@ -21,7 +21,7 @@ public class DiseñoModularJuegos {
             System.out.print("Elige una opción: ");
             
             // Guardo la opcio triada
-            opcion = scanner.nextInt();
+            opcion = s.nextInt();
 
             // Amb el switch, segons el valor de "opcion" truco una funcio o una altra i l'executo
             switch (opcion) {
@@ -46,6 +46,6 @@ public class DiseñoModularJuegos {
         }
         // repeteixo el menu fins que el usuari escolleixi la opcio 4 per sortir
         while (opcion != 4); 
-        scanner.close();
+        s.close();
     }
 }
